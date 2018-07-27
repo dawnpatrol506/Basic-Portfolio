@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.full-container{
+    display: grid;
+    grid-template-columns: 1fr 960px 1fr;
+    grid-template-rows: repeat(1fr, 12);
+    grid-gap: 0px;
+}
