@@ -9,6 +9,12 @@ body{
     color: #777777;
 }
 
+input{
+    display: block;
+    margin-bottom: 12px;
+    padding: 4px 30px;
+}
+
 .full-container{
     display: grid;
     grid-template-columns: 1fr 960px 1fr;
@@ -102,4 +108,18 @@ footer{
     top: 33px;
     grid-column: 3 / 4;
     
+}
+
+.message{
+    padding: 90px 300px;
+}
+
+.submit-button{
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 4px 20px;
+}
+
+.name-label{
+    margin-top: 30px;
 }
