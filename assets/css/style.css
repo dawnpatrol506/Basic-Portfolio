@@ -56,4 +56,33 @@ a{
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     margin-top: 25px;
+    color: #777;
+    padding: 35px;
+}
+
+.about-me:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.about-heading{
+    padding: 25px;
+    font-size: 2.5em;
+    color: #4aaaa5;
+}
+
+hr{
+    margin: 3px;
+}
+
+.family-photo{
+    max-width: 25%;
+    float: left;
+    margin: 15px;
+
+}
+
+p{
+    margin: 15px;
 }
