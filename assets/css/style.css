@@ -18,7 +18,7 @@ input{
 .full-container{
     display: grid;
     grid-template-columns: 1fr 960px 1fr;
-    grid-template-rows: 60px 2fr 80px 60px;
+    grid-template-rows: 60px 2fr 80px;
     grid-gap: 0px;
     height: 100%;
 }
@@ -99,6 +99,10 @@ footer{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     border-top: 7px solid #4aaaa5;
+    height: 60px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 .copyright{
@@ -122,4 +126,31 @@ footer{
 
 .name-label{
     margin-top: 30px;
+}
+
+.thumb{
+    float: left;
+    max-width: 22.5%;
+    margin: 5px 1%;
+    border: 1px solid black;
+
+}
+
+.thumb-img{
+    height: 160px;
+    max-width: 100%;
+}
+
+.img-banner{
+    background-color: #4aaaa5;
+    color: #fff;
+    padding: 8px 53.5px;
+    position: relative;
+    bottom: 40px;
+}
+
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
 }
